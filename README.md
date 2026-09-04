@@ -18,9 +18,11 @@ Copy-ready prompts, skills, and workflow resources for practical AI work.
 - [Diagrams](diagrams/) — Turn structured ideas into useful visuals.
 - [Agent workflows](agent-workflows/) — Reusable patterns for local AI agents.
 
-## Featured resource
+## Featured resources
 
 [Branded Template Skill Builder](powerpoint/branded-template-skill/) turns an approved PowerPoint template and canonical logo into a reusable presentation skill.
+
+[Diagram Design Companion](diagrams/diagram-design-companion/) turns an idea into a clear brief for the Diagram Design plugin.
 
 ## Rights
 

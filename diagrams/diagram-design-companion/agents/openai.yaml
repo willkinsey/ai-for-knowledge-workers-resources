@@ -1,0 +1,4 @@
+interface:
+  display_name: "Diagram Design Companion"
+  short_description: "Turn an idea into a clear diagram brief"
+  default_prompt: "Use $diagram-design-companion to turn my idea into a clear brief for the Diagram Design plugin."
