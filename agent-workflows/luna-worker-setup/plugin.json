@@ -1,0 +1,36 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "luna-worker-setup",
+  "version": "1.0.0",
+  "description": "A local setup and bounded delegation workflow for a dedicated GPT-6 Luna Max subagent.",
+  "author": {
+    "name": "willkinsey",
+    "url": "https://github.com/willkinsey"
+  },
+  "homepage": "https://github.com/willkinsey/ai-for-knowledge-workers-resources/tree/main/agent-workflows/luna-worker-setup",
+  "repository": "https://github.com/willkinsey/ai-for-knowledge-workers-resources",
+  "license": "MIT",
+  "keywords": [
+    "codex",
+    "agents",
+    "luna",
+    "delegation",
+    "setup"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Luna Worker Setup",
+        "shortDescription": "Set up bounded GPT-6 Luna Max work",
+        "longDescription": "Preview, apply, and verify a local Codex configuration for bounded work with a dedicated GPT-6 Luna Max subagent.",
+        "developerName": "willkinsey",
+        "category": "Productivity",
+        "capabilities": [],
+        "websiteURL": "https://github.com/willkinsey/ai-for-knowledge-workers-resources/tree/main/agent-workflows/luna-worker-setup",
+        "defaultPrompt": [
+          "Use the setup-luna-worker skill to inspect or configure this setup."
+        ]
+      }
+    }
+  }
+}
