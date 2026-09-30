@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Isolated installer tests; all fixture targets are created under /private/tmp."""
+"""Isolated installer tests; all fixture targets use the platform temporary directory."""
 
 from __future__ import annotations
 
@@ -20,8 +20,8 @@ PACKAGE_DIR = SCRIPT_DIR.parent
 class InstallerTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls) -> None:
-        cls.temp = tempfile.TemporaryDirectory(prefix="luna-worker-setup-test-", dir="/private/tmp")
-        cls.root = Path(cls.temp.name)
+        cls.temp = tempfile.TemporaryDirectory(prefix="luna-worker-setup-test-")
+        cls.root = Path(cls.temp.name).resolve()
         cls.package = cls.root / "package-fixture"
         shutil.copytree(
             PACKAGE_DIR / "scripts",

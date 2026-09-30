@@ -21,6 +21,10 @@ Model availability, configuration fields, and Codex behavior can change. Check t
 
 ## Quick Start
 
+Copy this into your Codex chat:
+
+> Set up the Luna Worker Setup Kit from https://github.com/willkinsey/ai-for-knowledge-workers-resources/tree/main/agent-workflows/luna-worker-setup. Read INSTALL.md and the bundled setup skill first. Inspect my existing configuration, explain user versus project scope, and confirm which scope I want. Preview the changes before applying them. Preserve my unrelated settings and instructions, back up changed files, and keep GPT-6 Luna at Max reasoning. Verify the saved files, then help me run the read-only runtime smoke test. If the model or reasoning level is unavailable, report it instead of substituting another model.
+
 Read [INSTALL.md](INSTALL.md) for the full bootstrap, scope choices, backups, rollback, and runtime check.
 
 The public resource URL is:
@@ -54,7 +58,7 @@ The user-scope `[agents]` settings are defaults across subagents using that Code
 
 ## Why Max
 
-This setup deliberately preserves the requested GPT-6 Luna Max configuration. In the Artificial Analysis model leaderboard checked on 2026-09-25, Max was the highest-scoring Luna reasoning setting shown in its Intelligence Index. That is dated third-party benchmark evidence, not an OpenAI recommendation or a guarantee of quality, speed, or value on a particular task. The [official subagent documentation](https://learn.chatgpt.com/docs/agent-configuration/subagents) describes High as a general starting point and Max or xhigh for especially demanding reasoning; this kit keeps Max because that is the selected configuration.
+This setup deliberately preserves the requested GPT-6 Luna Max configuration. In the [Artificial Analysis model leaderboard](https://artificialanalysis.ai/leaderboards/models) checked on 2026-09-25, Max was the highest-scoring Luna reasoning setting shown in its Intelligence Index. That is dated third-party benchmark evidence, not an OpenAI recommendation or a guarantee of quality, speed, or value on a particular task. The [official subagent documentation](https://learn.chatgpt.com/docs/agent-configuration/subagents) describes High as a general starting point and Max or xhigh for especially demanding reasoning; this kit keeps Max because that is the selected configuration.
 
 ## Limits
 
