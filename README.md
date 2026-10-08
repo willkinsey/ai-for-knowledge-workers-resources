@@ -13,8 +13,6 @@ Copy-ready prompts, skills, and workflow resources for practical AI work.
 ## Categories
 
 - [PowerPoint](powerpoint/) — Build and reproduce branded, editable presentations.
-- [Spreadsheets](spreadsheets/) — Apply practical AI workflows to spreadsheet work.
-- [Documents](documents/) — Create and improve working documents.
 - [Diagrams](diagrams/) — Turn structured ideas into useful visuals.
 - [Agent workflows](agent-workflows/) — Reusable patterns for local AI agents.
 
