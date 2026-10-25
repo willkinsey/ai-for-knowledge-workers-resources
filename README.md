@@ -24,6 +24,8 @@ Copy-ready prompts, skills, and workflow resources for practical AI work.
 
 [Luna Worker Setup](agent-workflows/luna-worker-setup/) gives Codex a reviewable, four-layer setup for bounded work with a dedicated GPT-6 Luna Max subagent.
 
+[Local Agent Session Bridge](agent-workflows/local-agent-session-bridge/) lets Claude Code, Codex, and Hermes Agent find, read, and message each other's existing sessions on one machine.
+
 ## Rights
 
 Prompts, skills, scripts/code, and written instructions are covered by the [MIT License](LICENSE). Logos, trademarks, brand identities, photographs, illustrations, presentation templates, PDFs, screenshots, and other visual or media assets are not covered unless a folder explicitly grants reuse. See [CONTENT-RIGHTS.md](CONTENT-RIGHTS.md).
